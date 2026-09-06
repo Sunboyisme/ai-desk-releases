@@ -1,36 +1,38 @@
-# AI个人效率助手（AI Desk）
+# AI Desk · AI个人效率助手
+把 AI 放在桌面，让问答、翻译和日常工作更顺手。
 
-AI个人效率助手是一款面向 Windows 的桌面 AI 问答与效率工具，集成日常问答、解释、总结、翻译、专注计时和常用文本，减少在多个工具之间切换。
+AI Desk 是一款面向 Windows 的桌面 AI 问答与效率工具，将日常问答、内容解释、文字总结、翻译、专注计时和常用文本集中在一个应用里，减少在多个工具之间来回切换。
 
-## 下载最新版
+## 从一个问题，到手头的日常任务
+读资料时遇到陌生概念，写东西时需要整理思路，看到一段外文想快速理解——打开 AI Desk，在桌面继续处理。
+- 随手问 AI：解释概念、梳理想法、总结内容，辅助解决学习和工作中的问题。
+- 处理翻译：将翻译融入日常文字处理，减少切换工具的操作。
+- 开启专注计时：为手头的任务留出一段专注时间。
+- 管理常用文本：集中保存经常使用的文字，方便重复取用。
 
-[下载 AI Desk v4.0.3 Windows x64 安装包](https://github.com/Sunboyisme/ai-desk-releases/releases/latest/download/AI-Desk-v4.0.3-Windows-x64-Setup.exe)
+## 让工具融入你的桌面
+暖色纸张与深可可色搭配，结合复古像素风格，让问答与效率工具拥有清晰、统一的界面。
+AI Desk 以桌面 AI 问答为核心，其余功能围绕日常使用展开：需要时打开，在同一个应用里完成更多小事。
 
-也可以进入 [Releases 页面](https://github.com/Sunboyisme/ai-desk-releases/releases/latest) 查看版本说明和校验文件。
+## 使用你选择的 AI 服务
+AI Desk 支持自行配置兼容 OpenAI 接口格式的 AI 服务、模型与 API Key。
+你可以根据自己的需求选择服务商和模型。使用 AI 问答与翻译前，需要完成相关配置；调用费用及服务规则由对应服务商决定。
 
-## 使用前说明
+## 下载与开始使用
+1. 下方下载按钮，下载 Windows x64 安装包。
+2. 安装并打开 AI Desk。
+3. 在设置中配置 AI 服务地址、模型与 API Key。
+4. 开始提问，或使用专注计时和常用文本等功能。
 
-- 支持 Windows x64。
-- AI 问答和翻译需要用户自行配置兼容 OpenAI 接口格式的服务、模型与 API Key。
-- 当前安装包尚未进行商业代码签名，Windows 可能显示“未知发布者”。请确认下载地址及 SHA-256 后再运行。
-- 本产品不宣称提供内置联网搜索或实时网页检索。
+## 安装与使用说明
+- 支持平台：Windows x64。
+- AI 使用条件：需要自行配置 AI 服务；下载客户端不代表获得模型调用额度。
+- 联网能力：当前不提供内置联网搜索或实时网页检索。
+- 安装提示：当前安装包尚未进行商业代码签名，Windows 可能显示“未知发布者”。请从本仓库下载，本仓库用于发布 AI Desk 安装包与版本说明。
 
-## 文件校验
+## 点击此处下载安装包
+[下载安装包](https://github.com/Sunboyisme/ai-desk-releases/releases/latest) ·[ 查看历史版本](https://github.com/Sunboyisme/ai-desk-releases/releases)
 
-v4.0.3 安装包 SHA-256：
-
-```text
-88003A613BCFB1E80D01CFB40C62203CB80D504D473E52DD8B357577DC05A568
-```
-
-PowerShell 校验命令：
-
-```powershell
-Get-FileHash -Algorithm SHA256 .\AI-Desk-v4.0.3-Windows-x64-Setup.exe
-```
-
-输出应与上方 SHA-256 完全一致。
-
-## 安全下载
-
-请只从本仓库的 Releases 页面下载安装包。不要运行来源不明、文件名相似但校验值不一致的文件。
+欢迎通过 [Issues](https://github.com/Sunboyisme/ai-desk-releases/issues) 反馈问题或提出建议。一起让它更顺手
+反馈时，可以告诉我：你正在完成什么任务、在哪一步遇到问题，以及你希望它如何改进。请勿提交 API Key 或其他敏感信息。
+如果 AI Desk 对你有帮助，欢迎点一个 ⭐ Star，支持后续迭代。
